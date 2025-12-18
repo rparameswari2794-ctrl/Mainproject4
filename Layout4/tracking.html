@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/css11.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="image/log.png" width="135"></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home1.html">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="program.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tracking.html">Tracking</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="subscription.html">Subscriptions</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a> </li>
+                </ul>
+                <div class="search-list">
+                    <div class="search-box"><input type="text" id="search"><span class="text default-text"
+                            style="color:#000000;font-weight: 600;font-size: 18px;">Search programs</span>
+                        <span class="text focus-text" style="color:#000000;font-weight: 600;font-size: 18px;">Weight
+                            loss
+                            program</span><img src="image/search.png" width="50">
+                    </div>
+                    <div class="profile-wrapper"><button type="button" class="profile"><img src="image/profile.jfif"
+                                class="profile-pic" id="profileBtn"></button>
+                        <div class="profile-menu" id="profileMenu">
+                            <h4>My Accounts</h4>
+                            <ul>
+                                <li><a href="account1.html">Personal Information</a> </li>
+                                <li><a href="success.html">My Program</a> </li>
+                                <li><a href="account3.html">Password Manager</a> </li>
+                                <li><a href="account4.html">Logout</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="wishlist.html" class="nav-link"><i class="fa-regular fa-heart"></i></a>
+                    <div class="bell-wrapper"><button type="button" class="bell"><i class="fa-regular fa-bell"
+                                id="bellBtn"></i></button> </div>
+                    <div class="bell-menu" id="bellMenu">
+                        <p style="margin-bottom: 20px;"><b>Program Notification Messages</b></p>
+                        <p>1. New Program Available</p>
+                        <p>New Program Alert!</p>
+                        <p>2."Advanced fitneswellness Techniques" is now live. Start Learning the latest in worldwide
+                            and user flows today.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid ms-2 mb-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <label>
+                            <input type="radio" name="feat" value="workouts" checked>
+                            <p>Daily Guided Workouts</p>
+                        </label>
+                    </div>
+                    <div class="feature-item">
+                        <label>
+                            <input type="radio" name="feat" value="weekly">
+                            <p>Weekly Progress Tracking</p>
+                        </label>
+                    </div>
+                    <div class="feature-item">
+                        <label>
+                            <input type="radio" name="feat" value="nutrition">
+                            <p>Nutrition & Meal Plans</p>
+                        </label>
+                    </div>
+                    <div class="feature-item">
+                        <label>
+                            <input type="radio" name="feat" value="coaching">
+                            <p>Expert Tips & Coaching</p>
+                        </label>
+                    </div>
+                    <div class="feature-item">
+                        <label>
+                            <input type="radio" name="feat" value="challenge">
+                            <p>Motivational Challenges</p>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- CONTENT SECTIONS -->
+                <div id="workouts" class="box">
+                    <p class="fig">Daily Works</p>
+                    <img src="image/track1.png" class="icon-img">
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h2>Day1 - Full Body Burn</h2>
+                                    <div class="feature-list">
+                                        <p><span class="check">✓</span> Warm-up (5 mins Cardio)</p>
+                                        <p><span class="check">✓</span> HIIT Full Body Circuit (20 mins)</p>
+                                        <p><span class="check">✓</span> Core Strength (10 mins)</p>
+                                        <p><span class="check">✓</span> Cool Down Stretch (5 mins)</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h2>Day2 - Lower Body Focus</h2>
+                                    <div class="feature-list">
+                                        <p><span class="check">✓</span> Glute Activation (5 mins)</p>
+                                        <p><span class="check">✓</span> Leg Day Workout (Squats, Lunges, Deadlifts - 25
+                                            mins)</p>
+                                        <p><span class="check">✓</span> Resistance Band Burnout (10 mins)</p>
+                                        <p><span class="check">✓</span> Recovery Stretch (5 mins)</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h2>Day3 - Active Recovery + Mobility</h2>
+                                    <div class="feature-list">
+                                        <p><span class="check">✓</span> Dynamic Stretching (10 mins)</p>
+                                        <p><span class="check">✓</span> Foam Rolling Routine (10 mins)</p>
+                                        <p><span class="check">✓</span> Guided Breathing / Light Yoga (10 mins)</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h2>Day4 - Upper Body Strength</h2>
+                                    <div class="feature-list">
+                                        <p><span class="check">✓</span> Push-Up Variations (5 mins)</p>
+                                        <p><span class="check">✓</span> Dumbbell Circuit(Shoulders, Back, Arms - 25
+                                            mins)</p>
+                                        <p><span class="check">✓</span> Core Blaster (10 mins)</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="weekly" class="box hide">
+                    <p class="fig">Weekly Progress Tracking</p>
+                    <img src="image/track2.png" class="icon-img">
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-12">
+                                    <h2>Weekly Progress Tracking</h2>
+                                    <h5>Initial Assessment & Goal Setting</h5>
+                                    <div class="feature-list">
+                                        <p><span class="check">✓</span> Baseline fitness test (Strength, endurance,
+                                            flexibility)</p>
+                                        <p><span class="check">✓</span> Body Measurements (Weight, BMI, Waist/hip ratio)
+                                        </p>
+                                        <p><span class="check">✓</span> Personalized Goal setup (e.g. lose 5kg in 4
+                                            weeks)</p>
+                                    </div>
+                                    <h5>Performance Milestone</h5>
+                                    <div class="feature-list">
+                                        <p><span class="check">✓</span> 7 Days Streaks</p>
+                                        <p><span class="check">✓</span> New Personal records</p>
+                                        <p><span class="check">✓</span> Nutrition adherance for 5 consecutive days</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 p-5">
+                                    <img src="image/track2a.png" class="track2-img" width="350">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="nutrition" class="box hide">
+                <p class="fig">Nutrition & Meal Plans</p>
+                <img src="image/track3.png" class="icon-img">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h2>Weekly Meal Plan Overview</h2>
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="days">
+                                    <p class="head">Day</p>
+                                    <p class="day">Monday</p>
+                                    <p class="day">Tuesday</p>
+                                    <p class="day">Wednesday</p>
+                                    <p class="day">Thursday</p>
+                                    <p class="day">Friday</p>
+                                    <p class="day">Saturday</p>
+                                    <p class="day">Sunday</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-12 col-sm-12 d-flex flex-wrap">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h6>Breakfast</h6>
+                                    <div class="feature-list">
+                                        <p class="p1"><span class="check">✓</span> Oatmeal + Berries</p>
+                                        <p class="p1"><span class="check">✓</span> Avocado Toast + Egg</p>
+                                        <p class="p1"><span class="check">✓</span> Smoothie Bowl</p>
+                                        <p class="p1"><span class="check">✓</span> Scrambled Eggs + Toast</p>
+                                        <p class="p1"><span class="check">✓</span> Protein Pancakes</p>
+                                        <p class="p1"><span class="check">✓</span> Yogurt Parfait</p>
+                                        <p class="p1"><span class="check">✓</span> Banana Protein Shake</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h6>Dinner</h6>
+                                    <div class="feature-list">
+                                        <p class="p1"><span class="check">✓</span> Quino + Veggie Stir-fry</p>
+                                        <p class="p1"><span class="check">✓</span> Brown Rice + Salmon</p>
+                                        <p class="p1"><span class="check">✓</span> Grilled Turkey Breast</p>
+                                        <p class="p1"><span class="check">✓</span> Zucchini Noodles + Tofu</p>
+                                        <p class="p1"><span class="check">✓</span> Pasta + Lean Meat Sauce</p>
+                                        <p class="p1"><span class="check">✓</span> Veggie Tacos</p>
+                                        <p class="p1"><span class="check">✓</span> Stir-fried Chicken + Rice</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h6>Lunch</h6>
+                                    <div class="feature-list">
+                                        <p class="p1"><span class="check">✓</span> Grilled Chicken Bowl</p>
+                                        <p class="p1"><span class="check">✓</span> Tuna Salad Wrap</p>
+                                        <p class="p1"><span class="check">✓</span> Chickpea Salad</p>
+                                        <p class="p1"><span class="check">✓</span> Lentil Soup + Bread</p>
+                                        <p class="p1"><span class="check">✓</span> Chicken Caesar Salad</p>
+                                        <p class="p1"><span class="check">✓</span> Quinoa Tabbouleh Bowl</p>
+                                        <p class="p1"><span class="check">✓</span> Baked Sweet Potato</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h6>Snack Ideas</h6>
+                                    <div class="feature-list">
+                                        <p class="p1"><span class="check">✓</span> Greek Yogurt + Nuts</p>
+                                        <p class="p1"><span class="check">✓</span> Apple Slices + Peanut Butter</p>
+                                        <p class="p1"><span class="check">✓</span> Protein Bar</p>
+                                        <p class="p1"><span class="check">✓</span> Carrot Sticks + Hummus</p>
+                                        <p class="p1"><span class="check">✓</span> Handful of Almonds</p>
+                                        <p class="p1"><span class="check">✓</span> Rice Cakes + Avocado</p>
+                                        <p class="p1"><span class="check">✓</span> Cottage Cheese + Fruit</p>
+                                    </div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="coaching" class="box hide">
+                    <img src="image/track4.png" class="icon-img">
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>Expert Tips & Coaching</h2>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
+                                        <h4>Video Tutorials by Certified Trainers</h4>
+                                        <div class="feature-list">
+                                            <p class="p1"><span class="check">✓</span> Strength Training Form Corrections
+                                            </p>
+                                            <p class="p1"><span class="check">✓</span> Effective Cardio Workouts</p>
+                                            <p class="p1"><span class="check">✓</span> Posture Improvement Guidance</p>
+                                            <p class="p1"><span class="check">✓</span> Mobility & Flexibility Routines
+                                            </p>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h4>Weekly Live Q&A Sessions </h4>
+                                            <div class="feature-list">
+                                                <p class="p1"><span class="check">✓</span> Ask Fitness Experts Your
+                                                    Questions Live</p>
+                                                <p class="p1"><span class="check">✓</span> Topics Include Nutrition
+                                                    recovery Muscle Gain</p>
+                                                <p class="p1"><span class="check">✓</span> And Mindset</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <h2>Fitness Myths Busted</h2>
+                                            <div class="feature-list">
+                                                <p class="p1"><span class="check">✓</span> Short Expert Videos debunking
+                                                    common misconceptions</p>
+                                                <p class="p1"><span class="check">✓</span> Example: Lifting makes you
+                                                    bulky? Can you spot reduce fat</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <h2>Goal-Oriented Workout Adjustments</h2>
+                                            <div class="feature-list">
+                                                <p class="p1"><span class="check">✓</span> Expert suggestions to tweak
+                                                    your workout based on progress</p>
+                                                <p class="p1"><span class="check">✓</span> Switch between fat loss,
+                                                    endurance or muscle gain plans with professional guidance</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="challenge" class="box hide">
+                            <img src="image/track5.png" class="icon-img">
+                            <div class="card-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h2>7-Day Fitness Kickstart</h2>
+                                            <div class="feature-list">
+                                                <p class="p1"><span class="check">✓</span> Daily short workouts (10-15 minutes)</p>
+                                                <p class="p1"><span class="check">✓</span> Motivation quotes each day</p>
+                                                <p class="p1"><span class="check">✓</span> Track Streaks to unlock rewards</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h2>Mindset Mondays</h2>
+                                            <div class="feature-list">
+                                                <p class="p1"><span class="check">✓</span> Weekly Challenges focused on mental fitness</p>
+                                                <p class="p1"><span class="check">✓</span> Journaling prompts, gratitude tasks</p>
+                                                <p class="p1"><span class="check">✓</span> Share your reflections with the community</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 ms-5 ps-5 mt-5">
+                                          <h2>21-Day Transformation Journey</h2>
+                                          <div class="feature-list">
+                                                <p class="p1"><span class="check">✓</span> Combines workouts, meals and mindset practices</p>
+                                                <p class="p1"><span class="check">✓</span> Weekly Progress check-ins</p>
+                                                <p class="p1"><span class="check">✓</span> Earn badges for milestones (e.g. 7days in a row, 100 squats completed) </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="container-fluid p-0 mt-5 mb-0">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-12">
+                            <img src="image/log.png" width="135">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12">
+                            <h4>About Us</h4>
+                            <p>Who We Are</p>
+                            <p>Our Mission</p>
+                            <p>How It Works</p>
+                            <p>Success</p>
+                            <p>Courses</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12">
+                            <h4>Quick Links</h4>
+                            <p>Browse</p>
+                            <p>Packages</p>
+                            <p>Categories</p>
+                            <p>Support</p>
+                            <p>Blog</p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12">
+                            <h4>Feature</h4>
+                            <p>HIIT</p>
+                            <p>Strength Yoga</p>
+                            <p>Cardio</p>
+                            <p>Cycling</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
+                            <div class="card-4 d-flex align-items-start">
+                                <div class="card4">
+                                    <h4>Contact & Social</h4>
+                                    <p>123 Saik Street, Chennai, TN</p>
+                                    <p>+91-7867980-688</p>
+                                    <p>Fitness@Fitnesscenter.com</p>
+                                </div>
+                                <div class="img">
+                                    <img src="image/footerimg1.png" width="135">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid p-0">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 col-sm-12 mt-3 pt-0">
+                            <p class="para1">&copy; 2025 Fitness center. All rights reserved.</p>
+                            <h5 class="footer-h5">Terms & Conditions | Privacy Policy</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mt-0 pt-0">
+                            <img src="image/footerimg2.png" width="180" style="margin-left:70px" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script>
+                const profileBtn = document.getElementById("profileBtn");
+                const profileMenu = document.getElementById("profileMenu");
+
+                profileBtn.addEventListener("click", function (e) {
+                    e.stopPropagation(); // prevent body click
+                    profileMenu.style.display =
+                        profileMenu.style.display === "block" ? "none" : "block";
+                });
+
+                // close when clicking outside
+                document.addEventListener("click", function () {
+                    profileMenu.style.display = "none";
+                });
+
+                const bellBtn = document.getElementById("bellBtn");
+                const bellMenu = document.getElementById("bellMenu");
+
+                bellBtn.addEventListener("click", function (e) {
+                    e.stopPropagation(); // prevent body click
+                    bellMenu.style.display =
+                        bellMenu.style.display === "block" ? "none" : "block";
+                });
+
+                // close when clicking outside
+                document.addEventListener("click", function () {
+                    bellMenu.style.display = "none";
+                });
+                const radios = document.querySelectorAll('input[name="feat"]');
+                const boxes = document.querySelectorAll('.box');
+
+                radios.forEach(radio => {
+                    radio.addEventListener("change", () => {
+
+                        boxes.forEach(b => b.classList.add("hide"));
+
+                        const section = document.getElementById(radio.value);
+                        section.classList.remove("hide");
+                    });
+                });
+
+
+
+            </script>
+</body>
+
+</html>
